@@ -23,6 +23,8 @@ def check_process_race():
 
     fastf1.Cache.enable_cache('fastf1_cache')
 
+    schedule['Session5Date'] = pd.to_datetime(schedule['Session5Date'])
+
     schedule = fastf1.get_event_schedule(current_year)
     recent_races = schedule[(schedule['EventFormat'] != 'testing') & 
                             (schedule['Session5Date'].dt.date >= seven_days_ago)&
