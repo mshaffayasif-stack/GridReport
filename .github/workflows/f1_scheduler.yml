@@ -1,0 +1,43 @@
+name: Weekly F1 Summary Pipeline
+
+on:
+  schedule:
+    # Runs automatically every Monday morning at 08:00 UTC
+    - cron: '0 8 * * 1'
+  workflow_dispatch: # Gives you a manual button on GitHub to test it whenever you want
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    # Required permissions to allow the cloud runner to write the JSON file back to your repo
+    permissions:
+      contents: write
+
+    steps:
+    - name: Check out repository code
+      uses: actions/checkout@v4
+
+    - name: Set up Python Environment
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run F1 Scanner Script
+      env:
+        GMAIL_USER: ${{ secrets.GMAIL_USER }}
+        GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
+      run: python F1_Scanner.py
+
+    - name: Save Updated JSON Archive Back to GitHub
+      run: |
+        git config --global user.name "GitHub Actions Bot"
+        git config --global user.email "actions@github.com"
+        git add f1_race_archive.json
+        git commit -m "Automated update of race archive [skip ci]" || echo "No changes to commit"
+        git push
