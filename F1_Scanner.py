@@ -25,7 +25,7 @@ def check_process_race():
     schedule = fastf1.get_event_schedule(current_year)
 
 
-    schedule['Session5Date'] = pd.to_datetime(schedule['Session5Date'])
+    schedule['Session5Date'] = pd.to_datetime(schedule['Session5Date'], utc=True)
 
     
     recent_races = schedule[(schedule['EventFormat'] != 'testing') & 
@@ -34,6 +34,7 @@ def check_process_race():
 
 
     if recent_races.empty:
+        print("No races in past 7 days")
         return
 
     target_event = recent_races.iloc[0]
