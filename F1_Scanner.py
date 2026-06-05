@@ -8,9 +8,9 @@ import fastf1
 import pandas as pd
 from fastf1.ergast import Ergast
 
-GMAIL_USER = os.environ.get("GMAIL_USER", "m.shaffayasif2009@gmail.com")
-GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "ijxq ajkp ejsq xelh")
-EMAIL_RECIPIENT = os.environ.get("EMAIL_RECIPIENT", "m.shaffayasif2009@gmail.com")
+GMAIL_USER = os.environ.get("GMAIL_USER")
+GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD")
+EMAIL_RECIPIENT = os.environ.get("EMAIL_RECIPIENT")
 ARCHIVE_FILE = "f1_race_archive.json"
 
 def check_process_race():
