@@ -1,9 +1,8 @@
 name: Weekly F1 Summary Pipeline
 
 on:
-  schedule:
-    # Runs automatically every Monday morning at 08:00 UTC
-    - cron: '0 3 * * 1'
+  repository_dispatch:
+    types: [f1-weekly-scanner]
   workflow_dispatch: # Gives you a manual button on GitHub to test it whenever you want
 
 jobs:
