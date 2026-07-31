@@ -1,0 +1,15 @@
+core           INFO 	Loading data for Hungarian Grand Prix - Race [v3.8.3]
+req            INFO 	Using cached data for session_info
+req            INFO 	Using cached data for driver_info
+req            INFO 	Using cached data for session_status_data
+req            INFO 	Using cached data for lap_count
+req            INFO 	Using cached data for track_status_data
+req            INFO 	Using cached data for _extended_timing_data
+req            INFO 	Using cached data for timing_app_data
+core           INFO 	Processing timing data...
+core        WARNING 	Fixed incorrect tyre stint information for driver '11'
+req            INFO 	Using cached data for race_control_messages
+core           INFO 	Finished loading data for 22 drivers: ['1', '3', '12', '16', '44', '6', '63', '30', '27', '41', '5', '10', '18', '14', '43', '31', '23', '55', '87', '81', '11', '77']
+C:\Users\DELL\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\fastf1\core.py:3175: FutureWarning: pick_driver is deprecated and will be removed in a future release. Use pick_drivers instead.
+  warnings.warn(("pick_driver is deprecated and will be removed"
+Notification sent successfully!

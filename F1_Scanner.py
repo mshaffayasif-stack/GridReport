@@ -1,16 +1,15 @@
 import os
 import json
+import time
 from datetime import datetime, timedelta
-import smtplib
+import requests
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import fastf1
 import pandas as pd
 from fastf1.ergast import Ergast
 
-GMAIL_USER = os.environ.get("GMAIL_USER")
-GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD")
-EMAIL_RECIPIENT = os.environ.get("EMAIL_RECIPIENT")
+Buttondown_API_Key = os.getenv("BUTTONDOWN_API_KEY", "5f746f60-a928-41f5-a1dd-546789953acf")
 ARCHIVE_FILE = "f1_race_archive.json"
 
 def check_process_race():
@@ -112,7 +111,55 @@ def save_to_archive(payload):
 def send_email_summary(race_name, payload):
     summary = payload['race_summary']
     standings = payload['championship_standings']
-    body = f"Race Summary: {race_name}\n{'='*30}\n\nWinner: {summary['winner']}\nFastest Lap: {summary['fastest_lap']['driver']} ({summary['fastest_lap']['time']})\nWinner Tire Strategy: {', '.join(summary['winner_compounds_used'])}\n\nTop 10 Classification:\n"
+
+    md_body = f"""## Race Summary: {race_name}
+---
+**Winner:** {summary['winner']}  
+**Fastest Lap:** {summary['fastest_lap']['driver']} ({summary['fastest_lap']['time']})  
+**Winner Tire Strategy:** {', '.join(summary['winner_compounds_used'])}
+
+### Top 10 Classification
+"""
+    # Adding numbered list items in Markdown:
+    for pos in summary['top_10_classification']:
+        md_body += f"1. **{pos['driver']}** - {pos['team']} ({pos['status']})\n"
+
+    md_body += "\n### Driver Championship Standings\n"
+    for d in standings['drivers']:
+        md_body += f"1. **{d['driver_name']}** - {d['points']} pts (Wins: {d['wins']})\n"
+
+    md_body += "\n### Constructor Championship Standings\n"
+    for c in standings['constructors']:
+        md_body += f"1. **{c['team_name']}** - {c['points']} pts (Wins: {c['wins']})\n"
+
+    test_timestamp = datetime.now().strftime("%H:%M:%S")
+
+
+    url = "https://api.buttondown.email/v1/emails"
+    headers = {
+        "Authorization": f"Token {Buttondown_API_Key}",
+        "Content-Type": "application/json",
+        "X-Buttondown-Live-Dangerously": "true"
+    }
+    
+    payload_data = {
+        "subject": f"F1 Weekend Review: {race_name}[TEST{test_timestamp}]",
+        "body": md_body,
+        # 'draft' saves to drafts. Change to 'about_to_send' when ready to email live!
+        "status": "about_to_send"
+    }
+
+    try:
+        response = requests.post(url, json=payload_data, headers=headers)
+        if response.status_code in [200, 201]:
+            print(f"Successfully posted '{race_name}' summary to Buttondown!")
+        else:
+            print(f"Buttondown API Error ({response.status_code}): {response.text}")
+    except Exception as e:
+        print(f"Failed to connect to Buttondown API: {e}")
+
+
+    """body = f"Race Summary: {race_name}\n{'='*30}\n\nWinner: {summary['winner']}\nFastest Lap: {summary['fastest_lap']['driver']} ({summary['fastest_lap']['time']})\nWinner Tire Strategy: {', '.join(summary['winner_compounds_used'])}\n\nTop 10 Classification:\n"
     for pos in summary['top_10_classification']:
         body += f"{pos['position']}. {pos['driver']} - {pos['team']} ({pos['status']})\n"
 
@@ -124,21 +171,26 @@ def send_email_summary(race_name, payload):
     for c in standings['constructors']:
         body += f"{c['position']}. {c['team_name']} - {c['points']} pts (Wins: {c['wins']})\n"
 
-    msg = MIMEMultipart()
-    msg['From'] = GMAIL_USER
-    msg['To'] = EMAIL_RECIPIENT
-    msg['Subject'] = f"F1 Weekend Review: {race_name}"
-    msg.attach(MIMEText(body, 'plain'))
+
 
     try:
+
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.starttls()
         server.login(GMAIL_USER, GMAIL_APP_PASSWORD)
-        server.sendmail(GMAIL_USER, EMAIL_RECIPIENT, msg.as_string())
+        for recipient in EMAIL_RECIPIENT:
+            msg = MIMEMultipart()
+            msg['From'] = GMAIL_USER
+            msg['To'] = recipient
+            msg['Subject'] = f"F1 Weekend Review: {race_name}"
+            msg.attach(MIMEText(body, 'plain'))
+            server.sendmail(GMAIL_USER, [recipient], msg.as_string())
+            time.sleep(1)
+
         server.quit()
         print("Notification sent successfully!")
     except Exception as e:
-        print(f"Failed to send email:{e}")
+        print(f"Failed to send email:{e}")"""
 
 if __name__ == "__main__":
     check_process_race()

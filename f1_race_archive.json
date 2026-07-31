@@ -293,5 +293,2931 @@
                 }
             ]
         }
+    },
+    {
+        "metadata": {
+            "project_source": "f1_mvp_pipeline",
+            "extracted_at": "2026-07-28T17:51:11.077748",
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "race_date": "2026-07-26",
+            "data_version": "1.1"
+        },
+        "race_summary": {
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "winner": "NOR",
+            "fastest_lap": {
+                "driver": "LEC",
+                "time": "00:01:22"
+            },
+            "winner_compounds_used": [
+                "MEDIUM",
+                "HARD",
+                "SOFT"
+            ],
+            "top_10_classification": [
+                {
+                    "position": 1,
+                    "driver": "NOR",
+                    "team": "McLaren",
+                    "status": "Finished"
+                },
+                {
+                    "position": 2,
+                    "driver": "VER",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 3,
+                    "driver": "ANT",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 4,
+                    "driver": "LEC",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 5,
+                    "driver": "HAM",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 6,
+                    "driver": "HAD",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 7,
+                    "driver": "RUS",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 8,
+                    "driver": "LAW",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 9,
+                    "driver": "HUL",
+                    "team": "Audi",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 10,
+                    "driver": "LIN",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                }
+            ]
+        },
+        "championship_standings": {
+            "drivers": [
+                {
+                    "position": 1,
+                    "points": 219.0,
+                    "wins": 6,
+                    "givenName": "Andrea Kimi",
+                    "familyName": "Antonelli",
+                    "driver_name": "Andrea Kimi Antonelli"
+                },
+                {
+                    "position": 2,
+                    "points": 169.0,
+                    "wins": 1,
+                    "givenName": "Lewis",
+                    "familyName": "Hamilton",
+                    "driver_name": "Lewis Hamilton"
+                },
+                {
+                    "position": 3,
+                    "points": 160.0,
+                    "wins": 2,
+                    "givenName": "George",
+                    "familyName": "Russell",
+                    "driver_name": "George Russell"
+                },
+                {
+                    "position": 4,
+                    "points": 138.0,
+                    "wins": 1,
+                    "givenName": "Charles",
+                    "familyName": "Leclerc",
+                    "driver_name": "Charles Leclerc"
+                },
+                {
+                    "position": 5,
+                    "points": 128.0,
+                    "wins": 1,
+                    "givenName": "Lando",
+                    "familyName": "Norris",
+                    "driver_name": "Lando Norris"
+                },
+                {
+                    "position": 6,
+                    "points": 109.0,
+                    "wins": 0,
+                    "givenName": "Max",
+                    "familyName": "Verstappen",
+                    "driver_name": "Max Verstappen"
+                },
+                {
+                    "position": 7,
+                    "points": 92.0,
+                    "wins": 0,
+                    "givenName": "Oscar",
+                    "familyName": "Piastri",
+                    "driver_name": "Oscar Piastri"
+                },
+                {
+                    "position": 8,
+                    "points": 68.0,
+                    "wins": 0,
+                    "givenName": "Isack",
+                    "familyName": "Hadjar",
+                    "driver_name": "Isack Hadjar"
+                },
+                {
+                    "position": 9,
+                    "points": 43.0,
+                    "wins": 0,
+                    "givenName": "Liam",
+                    "familyName": "Lawson",
+                    "driver_name": "Liam Lawson"
+                },
+                {
+                    "position": 10,
+                    "points": 42.0,
+                    "wins": 0,
+                    "givenName": "Pierre",
+                    "familyName": "Gasly",
+                    "driver_name": "Pierre Gasly"
+                }
+            ],
+            "constructors": [
+                {
+                    "position": 1,
+                    "points": 379.0,
+                    "wins": 8,
+                    "constructorName": "Mercedes",
+                    "team_name": "Mercedes"
+                },
+                {
+                    "position": 2,
+                    "points": 307.0,
+                    "wins": 2,
+                    "constructorName": "Ferrari",
+                    "team_name": "Ferrari"
+                },
+                {
+                    "position": 3,
+                    "points": 220.0,
+                    "wins": 1,
+                    "constructorName": "McLaren",
+                    "team_name": "McLaren"
+                },
+                {
+                    "position": 4,
+                    "points": 177.0,
+                    "wins": 0,
+                    "constructorName": "Red Bull",
+                    "team_name": "Red Bull"
+                },
+                {
+                    "position": 5,
+                    "points": 66.0,
+                    "wins": 0,
+                    "constructorName": "RB F1 Team",
+                    "team_name": "RB F1 Team"
+                }
+            ]
+        }
+    },
+    {
+        "metadata": {
+            "project_source": "f1_mvp_pipeline",
+            "extracted_at": "2026-07-28T17:52:18.425511",
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "race_date": "2026-07-26",
+            "data_version": "1.1"
+        },
+        "race_summary": {
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "winner": "NOR",
+            "fastest_lap": {
+                "driver": "LEC",
+                "time": "00:01:22"
+            },
+            "winner_compounds_used": [
+                "MEDIUM",
+                "HARD",
+                "SOFT"
+            ],
+            "top_10_classification": [
+                {
+                    "position": 1,
+                    "driver": "NOR",
+                    "team": "McLaren",
+                    "status": "Finished"
+                },
+                {
+                    "position": 2,
+                    "driver": "VER",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 3,
+                    "driver": "ANT",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 4,
+                    "driver": "LEC",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 5,
+                    "driver": "HAM",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 6,
+                    "driver": "HAD",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 7,
+                    "driver": "RUS",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 8,
+                    "driver": "LAW",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 9,
+                    "driver": "HUL",
+                    "team": "Audi",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 10,
+                    "driver": "LIN",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                }
+            ]
+        },
+        "championship_standings": {
+            "drivers": [
+                {
+                    "position": 1,
+                    "points": 219.0,
+                    "wins": 6,
+                    "givenName": "Andrea Kimi",
+                    "familyName": "Antonelli",
+                    "driver_name": "Andrea Kimi Antonelli"
+                },
+                {
+                    "position": 2,
+                    "points": 169.0,
+                    "wins": 1,
+                    "givenName": "Lewis",
+                    "familyName": "Hamilton",
+                    "driver_name": "Lewis Hamilton"
+                },
+                {
+                    "position": 3,
+                    "points": 160.0,
+                    "wins": 2,
+                    "givenName": "George",
+                    "familyName": "Russell",
+                    "driver_name": "George Russell"
+                },
+                {
+                    "position": 4,
+                    "points": 138.0,
+                    "wins": 1,
+                    "givenName": "Charles",
+                    "familyName": "Leclerc",
+                    "driver_name": "Charles Leclerc"
+                },
+                {
+                    "position": 5,
+                    "points": 128.0,
+                    "wins": 1,
+                    "givenName": "Lando",
+                    "familyName": "Norris",
+                    "driver_name": "Lando Norris"
+                },
+                {
+                    "position": 6,
+                    "points": 109.0,
+                    "wins": 0,
+                    "givenName": "Max",
+                    "familyName": "Verstappen",
+                    "driver_name": "Max Verstappen"
+                },
+                {
+                    "position": 7,
+                    "points": 92.0,
+                    "wins": 0,
+                    "givenName": "Oscar",
+                    "familyName": "Piastri",
+                    "driver_name": "Oscar Piastri"
+                },
+                {
+                    "position": 8,
+                    "points": 68.0,
+                    "wins": 0,
+                    "givenName": "Isack",
+                    "familyName": "Hadjar",
+                    "driver_name": "Isack Hadjar"
+                },
+                {
+                    "position": 9,
+                    "points": 43.0,
+                    "wins": 0,
+                    "givenName": "Liam",
+                    "familyName": "Lawson",
+                    "driver_name": "Liam Lawson"
+                },
+                {
+                    "position": 10,
+                    "points": 42.0,
+                    "wins": 0,
+                    "givenName": "Pierre",
+                    "familyName": "Gasly",
+                    "driver_name": "Pierre Gasly"
+                }
+            ],
+            "constructors": [
+                {
+                    "position": 1,
+                    "points": 379.0,
+                    "wins": 8,
+                    "constructorName": "Mercedes",
+                    "team_name": "Mercedes"
+                },
+                {
+                    "position": 2,
+                    "points": 307.0,
+                    "wins": 2,
+                    "constructorName": "Ferrari",
+                    "team_name": "Ferrari"
+                },
+                {
+                    "position": 3,
+                    "points": 220.0,
+                    "wins": 1,
+                    "constructorName": "McLaren",
+                    "team_name": "McLaren"
+                },
+                {
+                    "position": 4,
+                    "points": 177.0,
+                    "wins": 0,
+                    "constructorName": "Red Bull",
+                    "team_name": "Red Bull"
+                },
+                {
+                    "position": 5,
+                    "points": 66.0,
+                    "wins": 0,
+                    "constructorName": "RB F1 Team",
+                    "team_name": "RB F1 Team"
+                }
+            ]
+        }
+    },
+    {
+        "metadata": {
+            "project_source": "f1_mvp_pipeline",
+            "extracted_at": "2026-07-28T18:22:09.779566",
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "race_date": "2026-07-26",
+            "data_version": "1.1"
+        },
+        "race_summary": {
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "winner": "NOR",
+            "fastest_lap": {
+                "driver": "LEC",
+                "time": "00:01:22"
+            },
+            "winner_compounds_used": [
+                "MEDIUM",
+                "HARD",
+                "SOFT"
+            ],
+            "top_10_classification": [
+                {
+                    "position": 1,
+                    "driver": "NOR",
+                    "team": "McLaren",
+                    "status": "Finished"
+                },
+                {
+                    "position": 2,
+                    "driver": "VER",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 3,
+                    "driver": "ANT",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 4,
+                    "driver": "LEC",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 5,
+                    "driver": "HAM",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 6,
+                    "driver": "HAD",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 7,
+                    "driver": "RUS",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 8,
+                    "driver": "LAW",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 9,
+                    "driver": "HUL",
+                    "team": "Audi",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 10,
+                    "driver": "LIN",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                }
+            ]
+        },
+        "championship_standings": {
+            "drivers": [
+                {
+                    "position": 1,
+                    "points": 219.0,
+                    "wins": 6,
+                    "givenName": "Andrea Kimi",
+                    "familyName": "Antonelli",
+                    "driver_name": "Andrea Kimi Antonelli"
+                },
+                {
+                    "position": 2,
+                    "points": 169.0,
+                    "wins": 1,
+                    "givenName": "Lewis",
+                    "familyName": "Hamilton",
+                    "driver_name": "Lewis Hamilton"
+                },
+                {
+                    "position": 3,
+                    "points": 160.0,
+                    "wins": 2,
+                    "givenName": "George",
+                    "familyName": "Russell",
+                    "driver_name": "George Russell"
+                },
+                {
+                    "position": 4,
+                    "points": 138.0,
+                    "wins": 1,
+                    "givenName": "Charles",
+                    "familyName": "Leclerc",
+                    "driver_name": "Charles Leclerc"
+                },
+                {
+                    "position": 5,
+                    "points": 128.0,
+                    "wins": 1,
+                    "givenName": "Lando",
+                    "familyName": "Norris",
+                    "driver_name": "Lando Norris"
+                },
+                {
+                    "position": 6,
+                    "points": 109.0,
+                    "wins": 0,
+                    "givenName": "Max",
+                    "familyName": "Verstappen",
+                    "driver_name": "Max Verstappen"
+                },
+                {
+                    "position": 7,
+                    "points": 92.0,
+                    "wins": 0,
+                    "givenName": "Oscar",
+                    "familyName": "Piastri",
+                    "driver_name": "Oscar Piastri"
+                },
+                {
+                    "position": 8,
+                    "points": 68.0,
+                    "wins": 0,
+                    "givenName": "Isack",
+                    "familyName": "Hadjar",
+                    "driver_name": "Isack Hadjar"
+                },
+                {
+                    "position": 9,
+                    "points": 43.0,
+                    "wins": 0,
+                    "givenName": "Liam",
+                    "familyName": "Lawson",
+                    "driver_name": "Liam Lawson"
+                },
+                {
+                    "position": 10,
+                    "points": 42.0,
+                    "wins": 0,
+                    "givenName": "Pierre",
+                    "familyName": "Gasly",
+                    "driver_name": "Pierre Gasly"
+                }
+            ],
+            "constructors": [
+                {
+                    "position": 1,
+                    "points": 379.0,
+                    "wins": 8,
+                    "constructorName": "Mercedes",
+                    "team_name": "Mercedes"
+                },
+                {
+                    "position": 2,
+                    "points": 307.0,
+                    "wins": 2,
+                    "constructorName": "Ferrari",
+                    "team_name": "Ferrari"
+                },
+                {
+                    "position": 3,
+                    "points": 220.0,
+                    "wins": 1,
+                    "constructorName": "McLaren",
+                    "team_name": "McLaren"
+                },
+                {
+                    "position": 4,
+                    "points": 177.0,
+                    "wins": 0,
+                    "constructorName": "Red Bull",
+                    "team_name": "Red Bull"
+                },
+                {
+                    "position": 5,
+                    "points": 66.0,
+                    "wins": 0,
+                    "constructorName": "RB F1 Team",
+                    "team_name": "RB F1 Team"
+                }
+            ]
+        }
+    },
+    {
+        "metadata": {
+            "project_source": "f1_mvp_pipeline",
+            "extracted_at": "2026-07-28T18:50:04.561535",
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "race_date": "2026-07-26",
+            "data_version": "1.1"
+        },
+        "race_summary": {
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "winner": "NOR",
+            "fastest_lap": {
+                "driver": "LEC",
+                "time": "00:01:22"
+            },
+            "winner_compounds_used": [
+                "MEDIUM",
+                "HARD",
+                "SOFT"
+            ],
+            "top_10_classification": [
+                {
+                    "position": 1,
+                    "driver": "NOR",
+                    "team": "McLaren",
+                    "status": "Finished"
+                },
+                {
+                    "position": 2,
+                    "driver": "VER",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 3,
+                    "driver": "ANT",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 4,
+                    "driver": "LEC",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 5,
+                    "driver": "HAM",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 6,
+                    "driver": "HAD",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 7,
+                    "driver": "RUS",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 8,
+                    "driver": "LAW",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 9,
+                    "driver": "HUL",
+                    "team": "Audi",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 10,
+                    "driver": "LIN",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                }
+            ]
+        },
+        "championship_standings": {
+            "drivers": [
+                {
+                    "position": 1,
+                    "points": 219.0,
+                    "wins": 6,
+                    "givenName": "Andrea Kimi",
+                    "familyName": "Antonelli",
+                    "driver_name": "Andrea Kimi Antonelli"
+                },
+                {
+                    "position": 2,
+                    "points": 169.0,
+                    "wins": 1,
+                    "givenName": "Lewis",
+                    "familyName": "Hamilton",
+                    "driver_name": "Lewis Hamilton"
+                },
+                {
+                    "position": 3,
+                    "points": 160.0,
+                    "wins": 2,
+                    "givenName": "George",
+                    "familyName": "Russell",
+                    "driver_name": "George Russell"
+                },
+                {
+                    "position": 4,
+                    "points": 138.0,
+                    "wins": 1,
+                    "givenName": "Charles",
+                    "familyName": "Leclerc",
+                    "driver_name": "Charles Leclerc"
+                },
+                {
+                    "position": 5,
+                    "points": 128.0,
+                    "wins": 1,
+                    "givenName": "Lando",
+                    "familyName": "Norris",
+                    "driver_name": "Lando Norris"
+                },
+                {
+                    "position": 6,
+                    "points": 109.0,
+                    "wins": 0,
+                    "givenName": "Max",
+                    "familyName": "Verstappen",
+                    "driver_name": "Max Verstappen"
+                },
+                {
+                    "position": 7,
+                    "points": 92.0,
+                    "wins": 0,
+                    "givenName": "Oscar",
+                    "familyName": "Piastri",
+                    "driver_name": "Oscar Piastri"
+                },
+                {
+                    "position": 8,
+                    "points": 68.0,
+                    "wins": 0,
+                    "givenName": "Isack",
+                    "familyName": "Hadjar",
+                    "driver_name": "Isack Hadjar"
+                },
+                {
+                    "position": 9,
+                    "points": 43.0,
+                    "wins": 0,
+                    "givenName": "Liam",
+                    "familyName": "Lawson",
+                    "driver_name": "Liam Lawson"
+                },
+                {
+                    "position": 10,
+                    "points": 42.0,
+                    "wins": 0,
+                    "givenName": "Pierre",
+                    "familyName": "Gasly",
+                    "driver_name": "Pierre Gasly"
+                }
+            ],
+            "constructors": [
+                {
+                    "position": 1,
+                    "points": 379.0,
+                    "wins": 8,
+                    "constructorName": "Mercedes",
+                    "team_name": "Mercedes"
+                },
+                {
+                    "position": 2,
+                    "points": 307.0,
+                    "wins": 2,
+                    "constructorName": "Ferrari",
+                    "team_name": "Ferrari"
+                },
+                {
+                    "position": 3,
+                    "points": 220.0,
+                    "wins": 1,
+                    "constructorName": "McLaren",
+                    "team_name": "McLaren"
+                },
+                {
+                    "position": 4,
+                    "points": 177.0,
+                    "wins": 0,
+                    "constructorName": "Red Bull",
+                    "team_name": "Red Bull"
+                },
+                {
+                    "position": 5,
+                    "points": 66.0,
+                    "wins": 0,
+                    "constructorName": "RB F1 Team",
+                    "team_name": "RB F1 Team"
+                }
+            ]
+        }
+    },
+    {
+        "metadata": {
+            "project_source": "f1_mvp_pipeline",
+            "extracted_at": "2026-07-28T18:57:19.906621",
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "race_date": "2026-07-26",
+            "data_version": "1.1"
+        },
+        "race_summary": {
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "winner": "NOR",
+            "fastest_lap": {
+                "driver": "LEC",
+                "time": "00:01:22"
+            },
+            "winner_compounds_used": [
+                "MEDIUM",
+                "HARD",
+                "SOFT"
+            ],
+            "top_10_classification": [
+                {
+                    "position": 1,
+                    "driver": "NOR",
+                    "team": "McLaren",
+                    "status": "Finished"
+                },
+                {
+                    "position": 2,
+                    "driver": "VER",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 3,
+                    "driver": "ANT",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 4,
+                    "driver": "LEC",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 5,
+                    "driver": "HAM",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 6,
+                    "driver": "HAD",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 7,
+                    "driver": "RUS",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 8,
+                    "driver": "LAW",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 9,
+                    "driver": "HUL",
+                    "team": "Audi",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 10,
+                    "driver": "LIN",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                }
+            ]
+        },
+        "championship_standings": {
+            "drivers": [
+                {
+                    "position": 1,
+                    "points": 219.0,
+                    "wins": 6,
+                    "givenName": "Andrea Kimi",
+                    "familyName": "Antonelli",
+                    "driver_name": "Andrea Kimi Antonelli"
+                },
+                {
+                    "position": 2,
+                    "points": 169.0,
+                    "wins": 1,
+                    "givenName": "Lewis",
+                    "familyName": "Hamilton",
+                    "driver_name": "Lewis Hamilton"
+                },
+                {
+                    "position": 3,
+                    "points": 160.0,
+                    "wins": 2,
+                    "givenName": "George",
+                    "familyName": "Russell",
+                    "driver_name": "George Russell"
+                },
+                {
+                    "position": 4,
+                    "points": 138.0,
+                    "wins": 1,
+                    "givenName": "Charles",
+                    "familyName": "Leclerc",
+                    "driver_name": "Charles Leclerc"
+                },
+                {
+                    "position": 5,
+                    "points": 128.0,
+                    "wins": 1,
+                    "givenName": "Lando",
+                    "familyName": "Norris",
+                    "driver_name": "Lando Norris"
+                },
+                {
+                    "position": 6,
+                    "points": 109.0,
+                    "wins": 0,
+                    "givenName": "Max",
+                    "familyName": "Verstappen",
+                    "driver_name": "Max Verstappen"
+                },
+                {
+                    "position": 7,
+                    "points": 92.0,
+                    "wins": 0,
+                    "givenName": "Oscar",
+                    "familyName": "Piastri",
+                    "driver_name": "Oscar Piastri"
+                },
+                {
+                    "position": 8,
+                    "points": 68.0,
+                    "wins": 0,
+                    "givenName": "Isack",
+                    "familyName": "Hadjar",
+                    "driver_name": "Isack Hadjar"
+                },
+                {
+                    "position": 9,
+                    "points": 43.0,
+                    "wins": 0,
+                    "givenName": "Liam",
+                    "familyName": "Lawson",
+                    "driver_name": "Liam Lawson"
+                },
+                {
+                    "position": 10,
+                    "points": 42.0,
+                    "wins": 0,
+                    "givenName": "Pierre",
+                    "familyName": "Gasly",
+                    "driver_name": "Pierre Gasly"
+                }
+            ],
+            "constructors": [
+                {
+                    "position": 1,
+                    "points": 379.0,
+                    "wins": 8,
+                    "constructorName": "Mercedes",
+                    "team_name": "Mercedes"
+                },
+                {
+                    "position": 2,
+                    "points": 307.0,
+                    "wins": 2,
+                    "constructorName": "Ferrari",
+                    "team_name": "Ferrari"
+                },
+                {
+                    "position": 3,
+                    "points": 220.0,
+                    "wins": 1,
+                    "constructorName": "McLaren",
+                    "team_name": "McLaren"
+                },
+                {
+                    "position": 4,
+                    "points": 177.0,
+                    "wins": 0,
+                    "constructorName": "Red Bull",
+                    "team_name": "Red Bull"
+                },
+                {
+                    "position": 5,
+                    "points": 66.0,
+                    "wins": 0,
+                    "constructorName": "RB F1 Team",
+                    "team_name": "RB F1 Team"
+                }
+            ]
+        }
+    },
+    {
+        "metadata": {
+            "project_source": "f1_mvp_pipeline",
+            "extracted_at": "2026-07-28T18:59:04.142207",
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "race_date": "2026-07-26",
+            "data_version": "1.1"
+        },
+        "race_summary": {
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "winner": "NOR",
+            "fastest_lap": {
+                "driver": "LEC",
+                "time": "00:01:22"
+            },
+            "winner_compounds_used": [
+                "MEDIUM",
+                "HARD",
+                "SOFT"
+            ],
+            "top_10_classification": [
+                {
+                    "position": 1,
+                    "driver": "NOR",
+                    "team": "McLaren",
+                    "status": "Finished"
+                },
+                {
+                    "position": 2,
+                    "driver": "VER",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 3,
+                    "driver": "ANT",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 4,
+                    "driver": "LEC",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 5,
+                    "driver": "HAM",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 6,
+                    "driver": "HAD",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 7,
+                    "driver": "RUS",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 8,
+                    "driver": "LAW",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 9,
+                    "driver": "HUL",
+                    "team": "Audi",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 10,
+                    "driver": "LIN",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                }
+            ]
+        },
+        "championship_standings": {
+            "drivers": [
+                {
+                    "position": 1,
+                    "points": 219.0,
+                    "wins": 6,
+                    "givenName": "Andrea Kimi",
+                    "familyName": "Antonelli",
+                    "driver_name": "Andrea Kimi Antonelli"
+                },
+                {
+                    "position": 2,
+                    "points": 169.0,
+                    "wins": 1,
+                    "givenName": "Lewis",
+                    "familyName": "Hamilton",
+                    "driver_name": "Lewis Hamilton"
+                },
+                {
+                    "position": 3,
+                    "points": 160.0,
+                    "wins": 2,
+                    "givenName": "George",
+                    "familyName": "Russell",
+                    "driver_name": "George Russell"
+                },
+                {
+                    "position": 4,
+                    "points": 138.0,
+                    "wins": 1,
+                    "givenName": "Charles",
+                    "familyName": "Leclerc",
+                    "driver_name": "Charles Leclerc"
+                },
+                {
+                    "position": 5,
+                    "points": 128.0,
+                    "wins": 1,
+                    "givenName": "Lando",
+                    "familyName": "Norris",
+                    "driver_name": "Lando Norris"
+                },
+                {
+                    "position": 6,
+                    "points": 109.0,
+                    "wins": 0,
+                    "givenName": "Max",
+                    "familyName": "Verstappen",
+                    "driver_name": "Max Verstappen"
+                },
+                {
+                    "position": 7,
+                    "points": 92.0,
+                    "wins": 0,
+                    "givenName": "Oscar",
+                    "familyName": "Piastri",
+                    "driver_name": "Oscar Piastri"
+                },
+                {
+                    "position": 8,
+                    "points": 68.0,
+                    "wins": 0,
+                    "givenName": "Isack",
+                    "familyName": "Hadjar",
+                    "driver_name": "Isack Hadjar"
+                },
+                {
+                    "position": 9,
+                    "points": 43.0,
+                    "wins": 0,
+                    "givenName": "Liam",
+                    "familyName": "Lawson",
+                    "driver_name": "Liam Lawson"
+                },
+                {
+                    "position": 10,
+                    "points": 42.0,
+                    "wins": 0,
+                    "givenName": "Pierre",
+                    "familyName": "Gasly",
+                    "driver_name": "Pierre Gasly"
+                }
+            ],
+            "constructors": [
+                {
+                    "position": 1,
+                    "points": 379.0,
+                    "wins": 8,
+                    "constructorName": "Mercedes",
+                    "team_name": "Mercedes"
+                },
+                {
+                    "position": 2,
+                    "points": 307.0,
+                    "wins": 2,
+                    "constructorName": "Ferrari",
+                    "team_name": "Ferrari"
+                },
+                {
+                    "position": 3,
+                    "points": 220.0,
+                    "wins": 1,
+                    "constructorName": "McLaren",
+                    "team_name": "McLaren"
+                },
+                {
+                    "position": 4,
+                    "points": 177.0,
+                    "wins": 0,
+                    "constructorName": "Red Bull",
+                    "team_name": "Red Bull"
+                },
+                {
+                    "position": 5,
+                    "points": 66.0,
+                    "wins": 0,
+                    "constructorName": "RB F1 Team",
+                    "team_name": "RB F1 Team"
+                }
+            ]
+        }
+    },
+    {
+        "metadata": {
+            "project_source": "f1_mvp_pipeline",
+            "extracted_at": "2026-07-29T18:37:00.527766",
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "race_date": "2026-07-26",
+            "data_version": "1.1"
+        },
+        "race_summary": {
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "winner": "NOR",
+            "fastest_lap": {
+                "driver": "LEC",
+                "time": "00:01:22"
+            },
+            "winner_compounds_used": [
+                "MEDIUM",
+                "HARD",
+                "SOFT"
+            ],
+            "top_10_classification": [
+                {
+                    "position": 1,
+                    "driver": "NOR",
+                    "team": "McLaren",
+                    "status": "Finished"
+                },
+                {
+                    "position": 2,
+                    "driver": "VER",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 3,
+                    "driver": "ANT",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 4,
+                    "driver": "LEC",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 5,
+                    "driver": "HAM",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 6,
+                    "driver": "HAD",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 7,
+                    "driver": "RUS",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 8,
+                    "driver": "LAW",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 9,
+                    "driver": "HUL",
+                    "team": "Audi",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 10,
+                    "driver": "LIN",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                }
+            ]
+        },
+        "championship_standings": {
+            "drivers": [
+                {
+                    "position": 1,
+                    "points": 219.0,
+                    "wins": 6,
+                    "givenName": "Andrea Kimi",
+                    "familyName": "Antonelli",
+                    "driver_name": "Andrea Kimi Antonelli"
+                },
+                {
+                    "position": 2,
+                    "points": 169.0,
+                    "wins": 1,
+                    "givenName": "Lewis",
+                    "familyName": "Hamilton",
+                    "driver_name": "Lewis Hamilton"
+                },
+                {
+                    "position": 3,
+                    "points": 160.0,
+                    "wins": 2,
+                    "givenName": "George",
+                    "familyName": "Russell",
+                    "driver_name": "George Russell"
+                },
+                {
+                    "position": 4,
+                    "points": 138.0,
+                    "wins": 1,
+                    "givenName": "Charles",
+                    "familyName": "Leclerc",
+                    "driver_name": "Charles Leclerc"
+                },
+                {
+                    "position": 5,
+                    "points": 128.0,
+                    "wins": 1,
+                    "givenName": "Lando",
+                    "familyName": "Norris",
+                    "driver_name": "Lando Norris"
+                },
+                {
+                    "position": 6,
+                    "points": 109.0,
+                    "wins": 0,
+                    "givenName": "Max",
+                    "familyName": "Verstappen",
+                    "driver_name": "Max Verstappen"
+                },
+                {
+                    "position": 7,
+                    "points": 92.0,
+                    "wins": 0,
+                    "givenName": "Oscar",
+                    "familyName": "Piastri",
+                    "driver_name": "Oscar Piastri"
+                },
+                {
+                    "position": 8,
+                    "points": 68.0,
+                    "wins": 0,
+                    "givenName": "Isack",
+                    "familyName": "Hadjar",
+                    "driver_name": "Isack Hadjar"
+                },
+                {
+                    "position": 9,
+                    "points": 43.0,
+                    "wins": 0,
+                    "givenName": "Liam",
+                    "familyName": "Lawson",
+                    "driver_name": "Liam Lawson"
+                },
+                {
+                    "position": 10,
+                    "points": 42.0,
+                    "wins": 0,
+                    "givenName": "Pierre",
+                    "familyName": "Gasly",
+                    "driver_name": "Pierre Gasly"
+                }
+            ],
+            "constructors": [
+                {
+                    "position": 1,
+                    "points": 379.0,
+                    "wins": 8,
+                    "constructorName": "Mercedes",
+                    "team_name": "Mercedes"
+                },
+                {
+                    "position": 2,
+                    "points": 307.0,
+                    "wins": 2,
+                    "constructorName": "Ferrari",
+                    "team_name": "Ferrari"
+                },
+                {
+                    "position": 3,
+                    "points": 220.0,
+                    "wins": 1,
+                    "constructorName": "McLaren",
+                    "team_name": "McLaren"
+                },
+                {
+                    "position": 4,
+                    "points": 177.0,
+                    "wins": 0,
+                    "constructorName": "Red Bull",
+                    "team_name": "Red Bull"
+                },
+                {
+                    "position": 5,
+                    "points": 66.0,
+                    "wins": 0,
+                    "constructorName": "RB F1 Team",
+                    "team_name": "RB F1 Team"
+                }
+            ]
+        }
+    },
+    {
+        "metadata": {
+            "project_source": "f1_mvp_pipeline",
+            "extracted_at": "2026-07-29T18:37:55.653686",
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "race_date": "2026-07-26",
+            "data_version": "1.1"
+        },
+        "race_summary": {
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "winner": "NOR",
+            "fastest_lap": {
+                "driver": "LEC",
+                "time": "00:01:22"
+            },
+            "winner_compounds_used": [
+                "MEDIUM",
+                "HARD",
+                "SOFT"
+            ],
+            "top_10_classification": [
+                {
+                    "position": 1,
+                    "driver": "NOR",
+                    "team": "McLaren",
+                    "status": "Finished"
+                },
+                {
+                    "position": 2,
+                    "driver": "VER",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 3,
+                    "driver": "ANT",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 4,
+                    "driver": "LEC",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 5,
+                    "driver": "HAM",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 6,
+                    "driver": "HAD",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 7,
+                    "driver": "RUS",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 8,
+                    "driver": "LAW",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 9,
+                    "driver": "HUL",
+                    "team": "Audi",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 10,
+                    "driver": "LIN",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                }
+            ]
+        },
+        "championship_standings": {
+            "drivers": [
+                {
+                    "position": 1,
+                    "points": 219.0,
+                    "wins": 6,
+                    "givenName": "Andrea Kimi",
+                    "familyName": "Antonelli",
+                    "driver_name": "Andrea Kimi Antonelli"
+                },
+                {
+                    "position": 2,
+                    "points": 169.0,
+                    "wins": 1,
+                    "givenName": "Lewis",
+                    "familyName": "Hamilton",
+                    "driver_name": "Lewis Hamilton"
+                },
+                {
+                    "position": 3,
+                    "points": 160.0,
+                    "wins": 2,
+                    "givenName": "George",
+                    "familyName": "Russell",
+                    "driver_name": "George Russell"
+                },
+                {
+                    "position": 4,
+                    "points": 138.0,
+                    "wins": 1,
+                    "givenName": "Charles",
+                    "familyName": "Leclerc",
+                    "driver_name": "Charles Leclerc"
+                },
+                {
+                    "position": 5,
+                    "points": 128.0,
+                    "wins": 1,
+                    "givenName": "Lando",
+                    "familyName": "Norris",
+                    "driver_name": "Lando Norris"
+                },
+                {
+                    "position": 6,
+                    "points": 109.0,
+                    "wins": 0,
+                    "givenName": "Max",
+                    "familyName": "Verstappen",
+                    "driver_name": "Max Verstappen"
+                },
+                {
+                    "position": 7,
+                    "points": 92.0,
+                    "wins": 0,
+                    "givenName": "Oscar",
+                    "familyName": "Piastri",
+                    "driver_name": "Oscar Piastri"
+                },
+                {
+                    "position": 8,
+                    "points": 68.0,
+                    "wins": 0,
+                    "givenName": "Isack",
+                    "familyName": "Hadjar",
+                    "driver_name": "Isack Hadjar"
+                },
+                {
+                    "position": 9,
+                    "points": 43.0,
+                    "wins": 0,
+                    "givenName": "Liam",
+                    "familyName": "Lawson",
+                    "driver_name": "Liam Lawson"
+                },
+                {
+                    "position": 10,
+                    "points": 42.0,
+                    "wins": 0,
+                    "givenName": "Pierre",
+                    "familyName": "Gasly",
+                    "driver_name": "Pierre Gasly"
+                }
+            ],
+            "constructors": [
+                {
+                    "position": 1,
+                    "points": 379.0,
+                    "wins": 8,
+                    "constructorName": "Mercedes",
+                    "team_name": "Mercedes"
+                },
+                {
+                    "position": 2,
+                    "points": 307.0,
+                    "wins": 2,
+                    "constructorName": "Ferrari",
+                    "team_name": "Ferrari"
+                },
+                {
+                    "position": 3,
+                    "points": 220.0,
+                    "wins": 1,
+                    "constructorName": "McLaren",
+                    "team_name": "McLaren"
+                },
+                {
+                    "position": 4,
+                    "points": 177.0,
+                    "wins": 0,
+                    "constructorName": "Red Bull",
+                    "team_name": "Red Bull"
+                },
+                {
+                    "position": 5,
+                    "points": 66.0,
+                    "wins": 0,
+                    "constructorName": "RB F1 Team",
+                    "team_name": "RB F1 Team"
+                }
+            ]
+        }
+    },
+    {
+        "metadata": {
+            "project_source": "f1_mvp_pipeline",
+            "extracted_at": "2026-07-29T18:57:49.871887",
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "race_date": "2026-07-26",
+            "data_version": "1.1"
+        },
+        "race_summary": {
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "winner": "NOR",
+            "fastest_lap": {
+                "driver": "LEC",
+                "time": "00:01:22"
+            },
+            "winner_compounds_used": [
+                "MEDIUM",
+                "HARD",
+                "SOFT"
+            ],
+            "top_10_classification": [
+                {
+                    "position": 1,
+                    "driver": "NOR",
+                    "team": "McLaren",
+                    "status": "Finished"
+                },
+                {
+                    "position": 2,
+                    "driver": "VER",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 3,
+                    "driver": "ANT",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 4,
+                    "driver": "LEC",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 5,
+                    "driver": "HAM",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 6,
+                    "driver": "HAD",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 7,
+                    "driver": "RUS",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 8,
+                    "driver": "LAW",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 9,
+                    "driver": "HUL",
+                    "team": "Audi",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 10,
+                    "driver": "LIN",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                }
+            ]
+        },
+        "championship_standings": {
+            "drivers": [
+                {
+                    "position": 1,
+                    "points": 219.0,
+                    "wins": 6,
+                    "givenName": "Andrea Kimi",
+                    "familyName": "Antonelli",
+                    "driver_name": "Andrea Kimi Antonelli"
+                },
+                {
+                    "position": 2,
+                    "points": 169.0,
+                    "wins": 1,
+                    "givenName": "Lewis",
+                    "familyName": "Hamilton",
+                    "driver_name": "Lewis Hamilton"
+                },
+                {
+                    "position": 3,
+                    "points": 160.0,
+                    "wins": 2,
+                    "givenName": "George",
+                    "familyName": "Russell",
+                    "driver_name": "George Russell"
+                },
+                {
+                    "position": 4,
+                    "points": 138.0,
+                    "wins": 1,
+                    "givenName": "Charles",
+                    "familyName": "Leclerc",
+                    "driver_name": "Charles Leclerc"
+                },
+                {
+                    "position": 5,
+                    "points": 128.0,
+                    "wins": 1,
+                    "givenName": "Lando",
+                    "familyName": "Norris",
+                    "driver_name": "Lando Norris"
+                },
+                {
+                    "position": 6,
+                    "points": 109.0,
+                    "wins": 0,
+                    "givenName": "Max",
+                    "familyName": "Verstappen",
+                    "driver_name": "Max Verstappen"
+                },
+                {
+                    "position": 7,
+                    "points": 92.0,
+                    "wins": 0,
+                    "givenName": "Oscar",
+                    "familyName": "Piastri",
+                    "driver_name": "Oscar Piastri"
+                },
+                {
+                    "position": 8,
+                    "points": 68.0,
+                    "wins": 0,
+                    "givenName": "Isack",
+                    "familyName": "Hadjar",
+                    "driver_name": "Isack Hadjar"
+                },
+                {
+                    "position": 9,
+                    "points": 43.0,
+                    "wins": 0,
+                    "givenName": "Liam",
+                    "familyName": "Lawson",
+                    "driver_name": "Liam Lawson"
+                },
+                {
+                    "position": 10,
+                    "points": 42.0,
+                    "wins": 0,
+                    "givenName": "Pierre",
+                    "familyName": "Gasly",
+                    "driver_name": "Pierre Gasly"
+                }
+            ],
+            "constructors": [
+                {
+                    "position": 1,
+                    "points": 379.0,
+                    "wins": 8,
+                    "constructorName": "Mercedes",
+                    "team_name": "Mercedes"
+                },
+                {
+                    "position": 2,
+                    "points": 307.0,
+                    "wins": 2,
+                    "constructorName": "Ferrari",
+                    "team_name": "Ferrari"
+                },
+                {
+                    "position": 3,
+                    "points": 220.0,
+                    "wins": 1,
+                    "constructorName": "McLaren",
+                    "team_name": "McLaren"
+                },
+                {
+                    "position": 4,
+                    "points": 177.0,
+                    "wins": 0,
+                    "constructorName": "Red Bull",
+                    "team_name": "Red Bull"
+                },
+                {
+                    "position": 5,
+                    "points": 66.0,
+                    "wins": 0,
+                    "constructorName": "RB F1 Team",
+                    "team_name": "RB F1 Team"
+                }
+            ]
+        }
+    },
+    {
+        "metadata": {
+            "project_source": "f1_mvp_pipeline",
+            "extracted_at": "2026-07-29T19:00:51.842249",
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "race_date": "2026-07-26",
+            "data_version": "1.1"
+        },
+        "race_summary": {
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "winner": "NOR",
+            "fastest_lap": {
+                "driver": "LEC",
+                "time": "00:01:22"
+            },
+            "winner_compounds_used": [
+                "MEDIUM",
+                "HARD",
+                "SOFT"
+            ],
+            "top_10_classification": [
+                {
+                    "position": 1,
+                    "driver": "NOR",
+                    "team": "McLaren",
+                    "status": "Finished"
+                },
+                {
+                    "position": 2,
+                    "driver": "VER",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 3,
+                    "driver": "ANT",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 4,
+                    "driver": "LEC",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 5,
+                    "driver": "HAM",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 6,
+                    "driver": "HAD",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 7,
+                    "driver": "RUS",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 8,
+                    "driver": "LAW",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 9,
+                    "driver": "HUL",
+                    "team": "Audi",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 10,
+                    "driver": "LIN",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                }
+            ]
+        },
+        "championship_standings": {
+            "drivers": [
+                {
+                    "position": 1,
+                    "points": 219.0,
+                    "wins": 6,
+                    "givenName": "Andrea Kimi",
+                    "familyName": "Antonelli",
+                    "driver_name": "Andrea Kimi Antonelli"
+                },
+                {
+                    "position": 2,
+                    "points": 169.0,
+                    "wins": 1,
+                    "givenName": "Lewis",
+                    "familyName": "Hamilton",
+                    "driver_name": "Lewis Hamilton"
+                },
+                {
+                    "position": 3,
+                    "points": 160.0,
+                    "wins": 2,
+                    "givenName": "George",
+                    "familyName": "Russell",
+                    "driver_name": "George Russell"
+                },
+                {
+                    "position": 4,
+                    "points": 138.0,
+                    "wins": 1,
+                    "givenName": "Charles",
+                    "familyName": "Leclerc",
+                    "driver_name": "Charles Leclerc"
+                },
+                {
+                    "position": 5,
+                    "points": 128.0,
+                    "wins": 1,
+                    "givenName": "Lando",
+                    "familyName": "Norris",
+                    "driver_name": "Lando Norris"
+                },
+                {
+                    "position": 6,
+                    "points": 109.0,
+                    "wins": 0,
+                    "givenName": "Max",
+                    "familyName": "Verstappen",
+                    "driver_name": "Max Verstappen"
+                },
+                {
+                    "position": 7,
+                    "points": 92.0,
+                    "wins": 0,
+                    "givenName": "Oscar",
+                    "familyName": "Piastri",
+                    "driver_name": "Oscar Piastri"
+                },
+                {
+                    "position": 8,
+                    "points": 68.0,
+                    "wins": 0,
+                    "givenName": "Isack",
+                    "familyName": "Hadjar",
+                    "driver_name": "Isack Hadjar"
+                },
+                {
+                    "position": 9,
+                    "points": 43.0,
+                    "wins": 0,
+                    "givenName": "Liam",
+                    "familyName": "Lawson",
+                    "driver_name": "Liam Lawson"
+                },
+                {
+                    "position": 10,
+                    "points": 42.0,
+                    "wins": 0,
+                    "givenName": "Pierre",
+                    "familyName": "Gasly",
+                    "driver_name": "Pierre Gasly"
+                }
+            ],
+            "constructors": [
+                {
+                    "position": 1,
+                    "points": 379.0,
+                    "wins": 8,
+                    "constructorName": "Mercedes",
+                    "team_name": "Mercedes"
+                },
+                {
+                    "position": 2,
+                    "points": 307.0,
+                    "wins": 2,
+                    "constructorName": "Ferrari",
+                    "team_name": "Ferrari"
+                },
+                {
+                    "position": 3,
+                    "points": 220.0,
+                    "wins": 1,
+                    "constructorName": "McLaren",
+                    "team_name": "McLaren"
+                },
+                {
+                    "position": 4,
+                    "points": 177.0,
+                    "wins": 0,
+                    "constructorName": "Red Bull",
+                    "team_name": "Red Bull"
+                },
+                {
+                    "position": 5,
+                    "points": 66.0,
+                    "wins": 0,
+                    "constructorName": "RB F1 Team",
+                    "team_name": "RB F1 Team"
+                }
+            ]
+        }
+    },
+    {
+        "metadata": {
+            "project_source": "f1_mvp_pipeline",
+            "extracted_at": "2026-07-29T19:13:03.388481",
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "race_date": "2026-07-26",
+            "data_version": "1.1"
+        },
+        "race_summary": {
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "winner": "NOR",
+            "fastest_lap": {
+                "driver": "LEC",
+                "time": "00:01:22"
+            },
+            "winner_compounds_used": [
+                "MEDIUM",
+                "HARD",
+                "SOFT"
+            ],
+            "top_10_classification": [
+                {
+                    "position": 1,
+                    "driver": "NOR",
+                    "team": "McLaren",
+                    "status": "Finished"
+                },
+                {
+                    "position": 2,
+                    "driver": "VER",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 3,
+                    "driver": "ANT",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 4,
+                    "driver": "LEC",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 5,
+                    "driver": "HAM",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 6,
+                    "driver": "HAD",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 7,
+                    "driver": "RUS",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 8,
+                    "driver": "LAW",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 9,
+                    "driver": "HUL",
+                    "team": "Audi",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 10,
+                    "driver": "LIN",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                }
+            ]
+        },
+        "championship_standings": {
+            "drivers": [
+                {
+                    "position": 1,
+                    "points": 219.0,
+                    "wins": 6,
+                    "givenName": "Andrea Kimi",
+                    "familyName": "Antonelli",
+                    "driver_name": "Andrea Kimi Antonelli"
+                },
+                {
+                    "position": 2,
+                    "points": 169.0,
+                    "wins": 1,
+                    "givenName": "Lewis",
+                    "familyName": "Hamilton",
+                    "driver_name": "Lewis Hamilton"
+                },
+                {
+                    "position": 3,
+                    "points": 160.0,
+                    "wins": 2,
+                    "givenName": "George",
+                    "familyName": "Russell",
+                    "driver_name": "George Russell"
+                },
+                {
+                    "position": 4,
+                    "points": 138.0,
+                    "wins": 1,
+                    "givenName": "Charles",
+                    "familyName": "Leclerc",
+                    "driver_name": "Charles Leclerc"
+                },
+                {
+                    "position": 5,
+                    "points": 128.0,
+                    "wins": 1,
+                    "givenName": "Lando",
+                    "familyName": "Norris",
+                    "driver_name": "Lando Norris"
+                },
+                {
+                    "position": 6,
+                    "points": 109.0,
+                    "wins": 0,
+                    "givenName": "Max",
+                    "familyName": "Verstappen",
+                    "driver_name": "Max Verstappen"
+                },
+                {
+                    "position": 7,
+                    "points": 92.0,
+                    "wins": 0,
+                    "givenName": "Oscar",
+                    "familyName": "Piastri",
+                    "driver_name": "Oscar Piastri"
+                },
+                {
+                    "position": 8,
+                    "points": 68.0,
+                    "wins": 0,
+                    "givenName": "Isack",
+                    "familyName": "Hadjar",
+                    "driver_name": "Isack Hadjar"
+                },
+                {
+                    "position": 9,
+                    "points": 43.0,
+                    "wins": 0,
+                    "givenName": "Liam",
+                    "familyName": "Lawson",
+                    "driver_name": "Liam Lawson"
+                },
+                {
+                    "position": 10,
+                    "points": 42.0,
+                    "wins": 0,
+                    "givenName": "Pierre",
+                    "familyName": "Gasly",
+                    "driver_name": "Pierre Gasly"
+                }
+            ],
+            "constructors": [
+                {
+                    "position": 1,
+                    "points": 379.0,
+                    "wins": 8,
+                    "constructorName": "Mercedes",
+                    "team_name": "Mercedes"
+                },
+                {
+                    "position": 2,
+                    "points": 307.0,
+                    "wins": 2,
+                    "constructorName": "Ferrari",
+                    "team_name": "Ferrari"
+                },
+                {
+                    "position": 3,
+                    "points": 220.0,
+                    "wins": 1,
+                    "constructorName": "McLaren",
+                    "team_name": "McLaren"
+                },
+                {
+                    "position": 4,
+                    "points": 177.0,
+                    "wins": 0,
+                    "constructorName": "Red Bull",
+                    "team_name": "Red Bull"
+                },
+                {
+                    "position": 5,
+                    "points": 66.0,
+                    "wins": 0,
+                    "constructorName": "RB F1 Team",
+                    "team_name": "RB F1 Team"
+                }
+            ]
+        }
+    },
+    {
+        "metadata": {
+            "project_source": "f1_mvp_pipeline",
+            "extracted_at": "2026-07-29T19:19:29.690357",
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "race_date": "2026-07-26",
+            "data_version": "1.1"
+        },
+        "race_summary": {
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "winner": "NOR",
+            "fastest_lap": {
+                "driver": "LEC",
+                "time": "00:01:22"
+            },
+            "winner_compounds_used": [
+                "MEDIUM",
+                "HARD",
+                "SOFT"
+            ],
+            "top_10_classification": [
+                {
+                    "position": 1,
+                    "driver": "NOR",
+                    "team": "McLaren",
+                    "status": "Finished"
+                },
+                {
+                    "position": 2,
+                    "driver": "VER",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 3,
+                    "driver": "ANT",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 4,
+                    "driver": "LEC",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 5,
+                    "driver": "HAM",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 6,
+                    "driver": "HAD",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 7,
+                    "driver": "RUS",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 8,
+                    "driver": "LAW",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 9,
+                    "driver": "HUL",
+                    "team": "Audi",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 10,
+                    "driver": "LIN",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                }
+            ]
+        },
+        "championship_standings": {
+            "drivers": [
+                {
+                    "position": 1,
+                    "points": 219.0,
+                    "wins": 6,
+                    "givenName": "Andrea Kimi",
+                    "familyName": "Antonelli",
+                    "driver_name": "Andrea Kimi Antonelli"
+                },
+                {
+                    "position": 2,
+                    "points": 169.0,
+                    "wins": 1,
+                    "givenName": "Lewis",
+                    "familyName": "Hamilton",
+                    "driver_name": "Lewis Hamilton"
+                },
+                {
+                    "position": 3,
+                    "points": 160.0,
+                    "wins": 2,
+                    "givenName": "George",
+                    "familyName": "Russell",
+                    "driver_name": "George Russell"
+                },
+                {
+                    "position": 4,
+                    "points": 138.0,
+                    "wins": 1,
+                    "givenName": "Charles",
+                    "familyName": "Leclerc",
+                    "driver_name": "Charles Leclerc"
+                },
+                {
+                    "position": 5,
+                    "points": 128.0,
+                    "wins": 1,
+                    "givenName": "Lando",
+                    "familyName": "Norris",
+                    "driver_name": "Lando Norris"
+                },
+                {
+                    "position": 6,
+                    "points": 109.0,
+                    "wins": 0,
+                    "givenName": "Max",
+                    "familyName": "Verstappen",
+                    "driver_name": "Max Verstappen"
+                },
+                {
+                    "position": 7,
+                    "points": 92.0,
+                    "wins": 0,
+                    "givenName": "Oscar",
+                    "familyName": "Piastri",
+                    "driver_name": "Oscar Piastri"
+                },
+                {
+                    "position": 8,
+                    "points": 68.0,
+                    "wins": 0,
+                    "givenName": "Isack",
+                    "familyName": "Hadjar",
+                    "driver_name": "Isack Hadjar"
+                },
+                {
+                    "position": 9,
+                    "points": 43.0,
+                    "wins": 0,
+                    "givenName": "Liam",
+                    "familyName": "Lawson",
+                    "driver_name": "Liam Lawson"
+                },
+                {
+                    "position": 10,
+                    "points": 42.0,
+                    "wins": 0,
+                    "givenName": "Pierre",
+                    "familyName": "Gasly",
+                    "driver_name": "Pierre Gasly"
+                }
+            ],
+            "constructors": [
+                {
+                    "position": 1,
+                    "points": 379.0,
+                    "wins": 8,
+                    "constructorName": "Mercedes",
+                    "team_name": "Mercedes"
+                },
+                {
+                    "position": 2,
+                    "points": 307.0,
+                    "wins": 2,
+                    "constructorName": "Ferrari",
+                    "team_name": "Ferrari"
+                },
+                {
+                    "position": 3,
+                    "points": 220.0,
+                    "wins": 1,
+                    "constructorName": "McLaren",
+                    "team_name": "McLaren"
+                },
+                {
+                    "position": 4,
+                    "points": 177.0,
+                    "wins": 0,
+                    "constructorName": "Red Bull",
+                    "team_name": "Red Bull"
+                },
+                {
+                    "position": 5,
+                    "points": 66.0,
+                    "wins": 0,
+                    "constructorName": "RB F1 Team",
+                    "team_name": "RB F1 Team"
+                }
+            ]
+        }
+    },
+    {
+        "metadata": {
+            "project_source": "f1_mvp_pipeline",
+            "extracted_at": "2026-07-29T19:57:03.167478",
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "race_date": "2026-07-26",
+            "data_version": "1.1"
+        },
+        "race_summary": {
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "winner": "NOR",
+            "fastest_lap": {
+                "driver": "LEC",
+                "time": "00:01:22"
+            },
+            "winner_compounds_used": [
+                "MEDIUM",
+                "HARD",
+                "SOFT"
+            ],
+            "top_10_classification": [
+                {
+                    "position": 1,
+                    "driver": "NOR",
+                    "team": "McLaren",
+                    "status": "Finished"
+                },
+                {
+                    "position": 2,
+                    "driver": "VER",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 3,
+                    "driver": "ANT",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 4,
+                    "driver": "LEC",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 5,
+                    "driver": "HAM",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 6,
+                    "driver": "HAD",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 7,
+                    "driver": "RUS",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 8,
+                    "driver": "LAW",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 9,
+                    "driver": "HUL",
+                    "team": "Audi",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 10,
+                    "driver": "LIN",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                }
+            ]
+        },
+        "championship_standings": {
+            "drivers": [
+                {
+                    "position": 1,
+                    "points": 219.0,
+                    "wins": 6,
+                    "givenName": "Andrea Kimi",
+                    "familyName": "Antonelli",
+                    "driver_name": "Andrea Kimi Antonelli"
+                },
+                {
+                    "position": 2,
+                    "points": 169.0,
+                    "wins": 1,
+                    "givenName": "Lewis",
+                    "familyName": "Hamilton",
+                    "driver_name": "Lewis Hamilton"
+                },
+                {
+                    "position": 3,
+                    "points": 160.0,
+                    "wins": 2,
+                    "givenName": "George",
+                    "familyName": "Russell",
+                    "driver_name": "George Russell"
+                },
+                {
+                    "position": 4,
+                    "points": 138.0,
+                    "wins": 1,
+                    "givenName": "Charles",
+                    "familyName": "Leclerc",
+                    "driver_name": "Charles Leclerc"
+                },
+                {
+                    "position": 5,
+                    "points": 128.0,
+                    "wins": 1,
+                    "givenName": "Lando",
+                    "familyName": "Norris",
+                    "driver_name": "Lando Norris"
+                },
+                {
+                    "position": 6,
+                    "points": 109.0,
+                    "wins": 0,
+                    "givenName": "Max",
+                    "familyName": "Verstappen",
+                    "driver_name": "Max Verstappen"
+                },
+                {
+                    "position": 7,
+                    "points": 92.0,
+                    "wins": 0,
+                    "givenName": "Oscar",
+                    "familyName": "Piastri",
+                    "driver_name": "Oscar Piastri"
+                },
+                {
+                    "position": 8,
+                    "points": 68.0,
+                    "wins": 0,
+                    "givenName": "Isack",
+                    "familyName": "Hadjar",
+                    "driver_name": "Isack Hadjar"
+                },
+                {
+                    "position": 9,
+                    "points": 43.0,
+                    "wins": 0,
+                    "givenName": "Liam",
+                    "familyName": "Lawson",
+                    "driver_name": "Liam Lawson"
+                },
+                {
+                    "position": 10,
+                    "points": 42.0,
+                    "wins": 0,
+                    "givenName": "Pierre",
+                    "familyName": "Gasly",
+                    "driver_name": "Pierre Gasly"
+                }
+            ],
+            "constructors": [
+                {
+                    "position": 1,
+                    "points": 379.0,
+                    "wins": 8,
+                    "constructorName": "Mercedes",
+                    "team_name": "Mercedes"
+                },
+                {
+                    "position": 2,
+                    "points": 307.0,
+                    "wins": 2,
+                    "constructorName": "Ferrari",
+                    "team_name": "Ferrari"
+                },
+                {
+                    "position": 3,
+                    "points": 220.0,
+                    "wins": 1,
+                    "constructorName": "McLaren",
+                    "team_name": "McLaren"
+                },
+                {
+                    "position": 4,
+                    "points": 177.0,
+                    "wins": 0,
+                    "constructorName": "Red Bull",
+                    "team_name": "Red Bull"
+                },
+                {
+                    "position": 5,
+                    "points": 66.0,
+                    "wins": 0,
+                    "constructorName": "RB F1 Team",
+                    "team_name": "RB F1 Team"
+                }
+            ]
+        }
+    },
+    {
+        "metadata": {
+            "project_source": "f1_mvp_pipeline",
+            "extracted_at": "2026-07-29T20:02:18.003518",
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "race_date": "2026-07-26",
+            "data_version": "1.1"
+        },
+        "race_summary": {
+            "season": 2026,
+            "round": 11,
+            "track_name": "Hungarian Grand Prix",
+            "winner": "NOR",
+            "fastest_lap": {
+                "driver": "LEC",
+                "time": "00:01:22"
+            },
+            "winner_compounds_used": [
+                "MEDIUM",
+                "HARD",
+                "SOFT"
+            ],
+            "top_10_classification": [
+                {
+                    "position": 1,
+                    "driver": "NOR",
+                    "team": "McLaren",
+                    "status": "Finished"
+                },
+                {
+                    "position": 2,
+                    "driver": "VER",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 3,
+                    "driver": "ANT",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 4,
+                    "driver": "LEC",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 5,
+                    "driver": "HAM",
+                    "team": "Ferrari",
+                    "status": "Finished"
+                },
+                {
+                    "position": 6,
+                    "driver": "HAD",
+                    "team": "Red Bull Racing",
+                    "status": "Finished"
+                },
+                {
+                    "position": 7,
+                    "driver": "RUS",
+                    "team": "Mercedes",
+                    "status": "Finished"
+                },
+                {
+                    "position": 8,
+                    "driver": "LAW",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 9,
+                    "driver": "HUL",
+                    "team": "Audi",
+                    "status": "Lapped"
+                },
+                {
+                    "position": 10,
+                    "driver": "LIN",
+                    "team": "Racing Bulls",
+                    "status": "Lapped"
+                }
+            ]
+        },
+        "championship_standings": {
+            "drivers": [
+                {
+                    "position": 1,
+                    "points": 219.0,
+                    "wins": 6,
+                    "givenName": "Andrea Kimi",
+                    "familyName": "Antonelli",
+                    "driver_name": "Andrea Kimi Antonelli"
+                },
+                {
+                    "position": 2,
+                    "points": 169.0,
+                    "wins": 1,
+                    "givenName": "Lewis",
+                    "familyName": "Hamilton",
+                    "driver_name": "Lewis Hamilton"
+                },
+                {
+                    "position": 3,
+                    "points": 160.0,
+                    "wins": 2,
+                    "givenName": "George",
+                    "familyName": "Russell",
+                    "driver_name": "George Russell"
+                },
+                {
+                    "position": 4,
+                    "points": 138.0,
+                    "wins": 1,
+                    "givenName": "Charles",
+                    "familyName": "Leclerc",
+                    "driver_name": "Charles Leclerc"
+                },
+                {
+                    "position": 5,
+                    "points": 128.0,
+                    "wins": 1,
+                    "givenName": "Lando",
+                    "familyName": "Norris",
+                    "driver_name": "Lando Norris"
+                },
+                {
+                    "position": 6,
+                    "points": 109.0,
+                    "wins": 0,
+                    "givenName": "Max",
+                    "familyName": "Verstappen",
+                    "driver_name": "Max Verstappen"
+                },
+                {
+                    "position": 7,
+                    "points": 92.0,
+                    "wins": 0,
+                    "givenName": "Oscar",
+                    "familyName": "Piastri",
+                    "driver_name": "Oscar Piastri"
+                },
+                {
+                    "position": 8,
+                    "points": 68.0,
+                    "wins": 0,
+                    "givenName": "Isack",
+                    "familyName": "Hadjar",
+                    "driver_name": "Isack Hadjar"
+                },
+                {
+                    "position": 9,
+                    "points": 43.0,
+                    "wins": 0,
+                    "givenName": "Liam",
+                    "familyName": "Lawson",
+                    "driver_name": "Liam Lawson"
+                },
+                {
+                    "position": 10,
+                    "points": 42.0,
+                    "wins": 0,
+                    "givenName": "Pierre",
+                    "familyName": "Gasly",
+                    "driver_name": "Pierre Gasly"
+                }
+            ],
+            "constructors": [
+                {
+                    "position": 1,
+                    "points": 379.0,
+                    "wins": 8,
+                    "constructorName": "Mercedes",
+                    "team_name": "Mercedes"
+                },
+                {
+                    "position": 2,
+                    "points": 307.0,
+                    "wins": 2,
+                    "constructorName": "Ferrari",
+                    "team_name": "Ferrari"
+                },
+                {
+                    "position": 3,
+                    "points": 220.0,
+                    "wins": 1,
+                    "constructorName": "McLaren",
+                    "team_name": "McLaren"
+                },
+                {
+                    "position": 4,
+                    "points": 177.0,
+                    "wins": 0,
+                    "constructorName": "Red Bull",
+                    "team_name": "Red Bull"
+                },
+                {
+                    "position": 5,
+                    "points": 66.0,
+                    "wins": 0,
+                    "constructorName": "RB F1 Team",
+                    "team_name": "RB F1 Team"
+                }
+            ]
+        }
     }
 ]
